@@ -27,7 +27,6 @@ body{
     width: 150px;
 }
 .menu{
-    display: inline-block;
     float: right;
     padding-top: 10px;
 }
@@ -100,6 +99,9 @@ body{
 .container2{
     position: absolute;
     padding: 40px 0px;
+    margin-bottom: 50px;
+    max-width: 1100px;
+    display: block;
 }
 .app-preview2{
     width: 40%;
@@ -146,6 +148,62 @@ body{
     margin-right: 22px;
 }
 .card2 h4{
+    font-size: 21px;
+    margin: 0;
+}
+
+.container3{
+    padding: 40px 0px;
+    margin-top: 50px;
+    max-width: 1100px;
+    display: block;
+}
+.download-section{
+    width: 60%;
+    float: left;
+    padding-top: 80px
+}
+.app-preview3{
+    width: 40%;
+    float: right;
+}
+.app-preview3 img{
+    height: 390px;
+    padding-top: 112px;
+    float: right;
+}
+.download-section h2{
+    font-size: 36px;
+    margin: 0;
+}
+.download-section p{
+    font-size: 16px;
+}
+.dl-card{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.dl-card i{
+    color: #2cbe85;
+    font-size: 46px;
+    margin-right: 22px;
+}
+.dl-card h4{
+    font-size: 21px;
+    margin: 0;
+}
+.dl-card2{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.dl-card2 i{
+    color: #2cbe85;
+    font-size: 46px;
+    margin-right: 22px;
+}
+.dl-card2 h4{
     font-size: 21px;
     margin: 0;
 }
